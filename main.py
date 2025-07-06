@@ -2443,7 +2443,6 @@ class NewsAnalyzer:
 
         ids = [
             ("toutiao", "今日头条"),
-            ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
             ("thepaper", "澎湃新闻"),
             ("bilibili-hot-search", "bilibili 热搜"),
@@ -2453,6 +2452,8 @@ class NewsAnalyzer:
             "weibo",
             "douyin",
             "zhihu",
+            "v2ex",
+            "fastbull",
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
