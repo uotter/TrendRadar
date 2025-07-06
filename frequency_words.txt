@@ -5,21 +5,21 @@
 
 微软
 Microsoft
+Google
+Anthropic
 
 黄仁勋
 英伟达
 NVIDIA
 
-谷歌
-google
+
 gemini
 deepmind
-
-chatgpt
 openai
-
+gpt
 claude
-Anthropic
+cursor
+
 
 iphone
 ipad
@@ -29,21 +29,26 @@ ios
 
 ai
 !gai
+!篮球
 人工智能
 机器人
 大模型
 
 科技
-
 核能
+材料
+电池
 
 月球
 登月
 火星
 宇宙
 飞船
+木星
+土星
 
 量化
 加密货币
 比特币
 稳定币
+代币
