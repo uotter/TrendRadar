@@ -2452,7 +2452,6 @@ class NewsAnalyzer:
             "weibo",
             "douyin",
             "zhihu",
-            "v2ex",
             "fastbull",
         ]
 
