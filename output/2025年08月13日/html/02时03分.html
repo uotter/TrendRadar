@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 245</p><p>生成时间: 2025-08-13 02:03:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 机器人 大模型</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.45%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2113330" target="_blank" class="news-link">华为发布AI推理新技术 将于今年9月正式开源</a> [6] <font color='grey'>- 02时03分</font><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609534_101_1" target="_blank" class="news-link">印度第一家Ai独角兽Fractal寻求在Ipo中获得5.6亿美元估值。</a> [10 - 30] <font color='grey'>- 02时03分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609532_0_1" target="_blank" class="news-link">金融业采用人工智能：克拉曼的Baupost集团侧重于效率，而非选股</a> [11] <font color='grey'>- 02时03分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1928554265061855714" target="_blank" class="news-link">如何系统性学习大模型相关知识？</a> [20] <font color='grey'>- 02时03分</font><br>[douyin] <a href="https://www.douyin.com/hot/2201291" target="_blank" class="news-link">用AI测测宝宝30岁的样子</a> [26] <font color='grey'>- 02时03分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B8%82%E5%9C%BA%E7%8E%B0%E7%8A%B6%E5%A6%82%E4%BD%95" target="_blank" class="news-link">机器人市场现状如何</a> [29] <font color='grey'>- 02时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">量化 加密货币 比特币 稳定币 代币</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.82%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753070" target="_blank" class="news-link">市场静待美国通胀数据，纳指冲高回落，锂矿股大涨，比特币盘中逼近历史高点，黄金跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时03分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753166" target="_blank" class="news-link">“稳定币第一股”Circle二季度收入同比大增53%，USDC流通量同比激增90% | 财报见闻</a> [9] <font color='grey'>- 02时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2113085" target="_blank" class="news-link">特朗普称可能会允许英伟达在华销售“特供版”芯片，外交部回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">gemini deepmind openai gpt claude cursor</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609547_101_1" target="_blank" class="news-link">Openai和Ceo Sam Altman支持马斯克旗下脑机接口公司Neuralink的竞争对手Merge Labs。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时03分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能 材料 电池</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609552_101_1" target="_blank" class="news-link">【行情】标普500指数涨超1%，电信板块涨1.9%，科技、金融、原材料板块涨超1%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时03分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>fastbull (4 条)</h4><ul><li><a href="https://www.fastbull.com/cn/fastshort/3609552_101_1" target="_blank" class="news-link">【行情】标普500指数涨超1%，电信板块涨1.9%，科技、金融、原材料板块涨超1%。</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://www.fastbull.com/cn/fastshort/3609547_101_1" target="_blank" class="news-link">Openai和Ceo Sam Altman支持马斯克旗下脑机接口公司Neuralink的竞争对手Merge Labs。</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.fastbull.com/cn/fastshort/3609534_101_1" target="_blank" class="news-link">印度第一家Ai独角兽Fractal寻求在Ipo中获得5.6亿美元估值。</a> [10]</li><li><a href="https://www.fastbull.com/cn/fastshort/3609532_0_1" target="_blank" class="news-link">金融业采用人工智能：克拉曼的Baupost集团侧重于效率，而非选股</a> [11]</li></ul></div>
+        </body>
+        </html>
+        
