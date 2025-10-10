@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 244</p><p>生成时间: 2025-10-10 12:03:13</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 机器人 大模型</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.46%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756860" target="_blank" class="news-link">今年涨最多的美股板块？不是AI、也不是比特币概念股，是金矿！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时03分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2164904" target="_blank" class="news-link">Figure AI发布新一代人形机器人：动作更丝滑、手部更灵巧</a> [6] <font color='grey'>- 12时03分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756843" target="_blank" class="news-link">大摩：市场低估了明年潜在的“AI重大利好”，但存在关键的不确定性</a> [9] <font color='grey'>- 12时03分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756833" target="_blank" class="news-link">Altman深度访谈：将激进押注基础设施，瞄准AI全产业链垂直整合</a> [10] <font color='grey'>- 12时03分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1948752001656676858" target="_blank" class="news-link">为什么现在很多年轻人宁愿向 AI 倾诉心事，也不愿找身边的人聊聊？</a> [10] <font color='grey'>- 12时03分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345634&amp;amp;topic_name=%E5%8D%81%E6%9C%88%E6%96%B0%E7%95%AA%E8%B7%B3%E5%87%BA%E9%AD%94%E6%80%A7%E8%88%9E%E6%AD%A5%2C%E6%AF%94AI%E8%BF%98%E9%AC%BC%E7%95%9C" target="_blank" class="news-link">十月新番跳出魔性舞步,比AI还鬼畜</a> [18] <font color='grey'>- 12时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能 材料 电池</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.05%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2164955" target="_blank" class="news-link">【早报】涉超硬材料、稀土等出口管制，两部门连发4则公告；以色列政府：已批准加沙停火协议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时03分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756865" target="_blank" class="news-link">事关稀土、锂电池、超硬材料等出口管制，商务部连发四则公告！</a> [6] <font color='grey'>- 12时03分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31750066" target="_blank" class="news-link">人民日报专访曹德旺：对福耀科技大学有何期待？如何理解“亲清政商关系”？</a> [11] <font color='grey'>- 12时03分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31745929" target="_blank" class="news-link">阿维塔回应汽车起火致7车受损事件：起火位置在副驾座椅，排除动力电池、驱动电机、高压电控故障等导致</a> [16] <font color='grey'>- 12时03分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1958460344537166531" target="_blank" class="news-link">一阿维塔 06 起火致 8 车烧毁，阿维塔回应电池包正常，起火原因可能是什么？谁将承担此次事故损失？</a> [16] <font color='grey'>- 12时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">微软 Microsoft Google Anthropic</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.82%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756893" target="_blank" class="news-link">微软预测数据中心的供应紧张危机将持续到2026年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时03分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2165053" target="_blank" class="news-link">AI需求持续飙升！微软数据中心资源困境料持续到2026年</a> [11] <font color='grey'>- 12时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">量化 加密货币 比特币 稳定币 代币</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles">[fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704488_101_1" target="_blank" class="news-link">高调换仓ETH的BTC OG巨鲸加仓比特币空单至5000枚，杠杆提高至8倍</a> [10 - 30] <font color='grey'>- 12时03分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
