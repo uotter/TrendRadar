@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 245</p><p>生成时间: 2025-10-17 01:03:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 机器人 大模型</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.63%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31790934" target="_blank" class="news-link">央视主持人李梓萌遭AI仿冒带货！北京查处首例AI虚假广告案</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时03分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757299" target="_blank" class="news-link">台积电强劲业绩带动AI乐观情绪，美股三大股指集体上涨，科技股盘前多数走高，金银维持强势，加密货币震荡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时03分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757296" target="_blank" class="news-link">台积电法说会：对人工智能大趋势的信心正在“增强”，上调全年销售预期和资本支出下限</a> [10] <font color='grey'>- 01时03分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E6%95%99%E5%BA%93%E5%85%8B%E8%AF%B4%E4%B8%AD%E6%96%87" target="_blank" class="news-link">UP主用AI教库克说中文</a> [19] <font color='grey'>- 01时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能 材料 电池</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2171698" target="_blank" class="news-link">固态电池领域频现突破性进展！一图看懂产业链上市公司有哪些</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时03分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1962151228646584575" target="_blank" class="news-link">徐娇卖 1850 元化纤马面裙却宣称「绫罗绸缎」，其回应罗不是材料是织法，是这样吗？「罗」到底是指什么？</a> [7] <font color='grey'>- 01时03分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1958843402075468784" target="_blank" class="news-link">我国在固态锂电池领域取得突破，研究出可弯折 20000 次柔性电池，这一突破有哪些意义？</a> [10] <font color='grey'>- 01时03分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船 木星 土星</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1961744866544451737" target="_blank" class="news-link">如何看待中国探月工程三期总设计师、嫦娥六号任务总设计师胡浩说「火星移民意义不大」？</a> [11] <font color='grey'>- 01时03分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757296" target="_blank" class="news-link">台积电法说会：对人工智能大趋势的信心正在“增强”，上调全年销售预期和资本支出下限</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
