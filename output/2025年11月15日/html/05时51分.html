@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 245</p><p>生成时间: 2025-11-15 05:51:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技 核能 材料 电池</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.45%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759354" target="_blank" class="news-link">科技股反弹，美股纳指转涨，黄金跌幅收窄，币圈分化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时51分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2201033" target="_blank" class="news-link">锂电池“血液”涨价传导提速！头部厂称满产满销 议价能力有望提升|行业动态</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时51分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759350" target="_blank" class="news-link">科技股、数字币被抛售，美国市场继续本月开启的“避险模式”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时51分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2201018" target="_blank" class="news-link">【数据看盘】机构、一线游资联合买入中一科技 两家实力游资抢筹航天发展</a> [7] <font color='grey'>- 05时51分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1972596571733497781" target="_blank" class="news-link">美联储降息预期骤降，美股集体收跌，科技股被抛售，黄金跌 1%，比特币跌破 10 万美元，哪些信息值得关注？</a> [15] <font color='grey'>- 05时51分</font><br>[fastbull] <a href="https://www.fastbull.com/cn/fastshort/3776100_100_1" target="_blank" class="news-link">美国能源部宣布将拨付3.55亿美元，用于扩大国内关键矿产和材料的生产。</a> [16] <font color='grey'>- 05时51分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船 木星 土星</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.63%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7572537283459419684/" target="_blank" class="news-link">神二十乘组换船回家 原飞船怎么办</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时51分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31963760" target="_blank" class="news-link">神舟二十号乘组将于14日乘坐神舟二十一号飞船返回东风着陆场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时51分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1972054906580997723" target="_blank" class="news-link">神舟二十号乘组乘坐神舟二十一号飞船返回，飞船返回舱成功着陆，此次任务历程克服了哪些困难？</a> [7] <font color='grey'>- 05时51分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31967320" target="_blank" class="news-link">飞船返回舱成功着陆，神二十乘组三名航天员到家了</a> [13] <font color='grey'>- 05时51分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能 机器人 大模型</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.82%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2200994" target="_blank" class="news-link">【焦点复盘】创业板指低开低走跌近3%，AI硬件端全线退潮，抗寒概念股逆势爆发</a> [9] <font color='grey'>- 05时51分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759380" target="_blank" class="news-link">豪赌AI代价惨重：甲骨文债务激增、股价暴跌30%居科技股跌幅榜首</a> [10] <font color='grey'>- 05时51分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">量化 加密货币 比特币 稳定币 代币</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.82%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759298" target="_blank" class="news-link">鹰派言论引发风险资产抛售，纳指跌超2%，比特币跌破10万美元，人民币涨破7.10</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时51分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2201293" target="_blank" class="news-link">避险情绪持续升温 美股、黄金、比特币齐跌 | 今夜看点</a> [6] <font color='grey'>- 05时51分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.41%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759409" target="_blank" class="news-link">桥水Q3大砍英伟达持仓65%，谷歌、Meta持仓腰斩，加仓美国大盘指数，清仓新兴市场ETF</a> [8] <font color='grey'>- 05时51分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
